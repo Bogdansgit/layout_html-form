@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
+    <meta
+      name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
@@ -12,7 +13,8 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       onsubmit="onSubmit()"
-      method="POST">
+      method="POST"
+    >
       <fieldset class="form__block">
         <legend>Personal information</legend>
 
@@ -22,6 +24,7 @@
             type="text"
             name="surname"
             id="surname-id"
+            autocomplete="off"
             required
           >
         </div>
@@ -32,6 +35,7 @@
             type="text"
             name="name"
             id="name-id"
+            autocomplete="off"
             required
           >
         </div>
@@ -86,7 +90,7 @@
 
         <div class="form__lable">
           <label for="password-id">Password:</label>
-          <input class=""
+          <input
             type="password"
             name="password"
             id="password-id"
@@ -142,7 +146,6 @@
             What are your favourite brand of cars?
           </label>
           <select
-            class=""
             name="Favorite car"
             id="favorite-car-id"
             multiple
@@ -158,7 +161,6 @@
             How do you rate our work?
           </label>
           <input
-            class=""
             type="range"
             name="work-rating"
             id="work-rating-id"
@@ -172,7 +174,6 @@
         <div class="form__lable">
           <label for="feedback-id">Comments:</label>
           <textarea
-            class=""
             name="feedback"
             id="feedback-id"
             cols="30"
@@ -185,7 +186,6 @@
             Would you recommended us?
           </label>
           <select
-            class=""
             name="recommended-us"
             id="recommended-us-id"
           >
